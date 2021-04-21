@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 10pt;
+    color: #555555;
+}
+
+#tartalom {
+    width: 700px;
+    margin: auto;
+}
+
+#bevezeto::after,
+#reszletek::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.class {
+    float: left;
+    width: 50%;
+}
+
+#hozzavalok {
+    float: right;
+    width: 38%;
+}
+
+#sztori {
+    float: left;
+    width: 43%;
+}
+
+#elkeszites {
+    float: left;
+    width: 52%;
+}
+
+li {
+    line-height: 20px;
+}
+
+#hozzavalok h2 {
+    margin-left: 16px;
+    margin-top: 0;
+}
+
+#sztori p, a {
+    margin-left: 18px;
+}
+
+#sztori p {
+    padding-top: 14px;
+}
+
+#sztori h2 {
+    margin-left: 18px;
+}
+
+#elkeszites h2 {
+    margin-left: 40px;
+}
+
+ol {
+    padding-top: 14px;
+}
